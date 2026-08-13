@@ -218,6 +218,28 @@
     font-weight: 600;
   }
 
+  .activity-card {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    overflow-x: auto;
+  }
+
+  .activity-chart {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .activity-note {
+    margin: 14px 0 0;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+
   .contact p.lead {
     color: var(--text-muted);
     margin: 0 0 24px;
@@ -256,6 +278,7 @@
       <a href="#top">Om mig</a>
       <a href="#projects">Projekt</a>
       <a href="#skills">Kompetens</a>
+      <a href="#activity">GitHub</a>
       <a href="#contact">Kontakt</a>
     </nav>
   </div>
@@ -278,63 +301,6 @@
           <a class="btn btn-primary" href="#projects">Se mina projekt</a>
           <a class="btn btn-secondary" href="mailto:pjstrid@outlook.com">Kontakta mig</a>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="wrap">
-      <h2 class="section-title">Projekt</h2>
-      <div class="projects-grid">
-
-        <article class="card">
-          <h3>VM-tipset</h3>
-          <p>Ett hobbyprojekt i HTML, byggt tillsammans med Claude.</p>
-          <a class="repo-link" href="https://github.com/pjstrid/vm-tipset-2026" target="_blank" rel="noopener">
-            Visa på GitHub →
-          </a>
-        </article>
-
-        <article class="card">
-          <h3>Quiz 2.0</h3>
-          <p>Ett hobbyprojekt i Kotlin. Ett quiz med "live update"-funktion.</p>
-          <a class="repo-link" href="https://github.com/pjstrid/QuizVersionOne" target="_blank" rel="noopener">
-            Visa på GitHub →
-          </a>
-        </article>
-
-        <article class="card">
-          <h3>Snusless</h3>
-          <p>Ett skolprojekt i grupp, byggt i Swift.</p>
-          <a class="repo-link" href="https://github.com/Amandamandaanda/Snusless" target="_blank" rel="noopener">
-            Visa på GitHub →
-          </a>
-        </article>
-
-        <article class="card">
-          <h3>CardGameApp</h3>
-          <p>Ett skolprojekt i Kotlin.</p>
-          <a class="repo-link" href="https://github.com/pjstrid/CardGameApp" target="_blank" rel="noopener">
-            Visa på GitHub →
-          </a>
-        </article>
-
-        <article class="card">
-          <h3>RunNest</h3>
-          <p>Ett demoprojekt hostat på Vercel, byggt tillsammans med Claude.</p>
-          <a class="repo-link" href="https://github.com/pjstrid/RUNNEST" target="_blank" rel="noopener">
-            Visa på GitHub →
-          </a>
-        </article>
-
-        <article class="card">
-          <h3>Fler projekt</h3>
-          <p>Se fler projekt på GitHub</p>
-          <a class="repo-link" href="https://github.com/pjstrid" target="_blank" rel="noopener">
-            Visa på GitHub →
-          </a>
-        </article>
-
       </div>
     </div>
   </section>
@@ -374,6 +340,75 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+    <section id="projects">
+    <div class="wrap">
+      <h2 class="section-title">Projekt</h2>
+      <div class="projects-grid">
+
+        <article class="card">
+          <h3>VM-tipset</h3>
+          <p>Ett hobbyprojekt i HTML, byggt tillsammans med Claude. En hemsida med tabell och resultat för ett VM-tips med vänner och bekanta. </p>
+          <a class="repo-link" href="https://github.com/pjstrid/vm-tipset-2026" target="_blank" rel="noopener">
+            Visa på GitHub →
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Quiz 2.0</h3>
+          <p>Ett hobbyprojekt, byggt i Kotlin. Ett hemmagjort quiz med "live update"-funktion.</p>
+          <a class="repo-link" href="https://github.com/pjstrid/QuizVersionOne" target="_blank" rel="noopener">
+            Visa på GitHub →
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Snusless</h3>
+          <p>Ett skolprojekt i grupp, byggt i Swift. En app för de som försöker sluta snusa.</p>
+          <a class="repo-link" href="https://github.com/Amandamandaanda/Snusless" target="_blank" rel="noopener">
+            Visa på GitHub →
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>CardGameApp</h3>
+          <p>Ett skolprojekt, byggt i Kotlin. En app med ett roligt kortspel.</p>
+          <a class="repo-link" href="https://github.com/pjstrid/CardGameApp" target="_blank" rel="noopener">
+            Visa på GitHub →
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>RunNest</h3>
+          <p>Ett demoapp-projekt hostat på Vercel, byggt tillsammans med Claude.</p>
+          <a class="repo-link" href="https://github.com/pjstrid/RUNNEST" target="_blank" rel="noopener">
+            Visa på GitHub →
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Fler projekt</h3>
+          <p>Se fler projekt på GitHub</p>
+          <a class="repo-link" href="https://github.com/pjstrid" target="_blank" rel="noopener">
+            Visa på GitHub →
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="activity">
+    <div class="wrap">
+      <h2 class="section-title">GitHub-aktivitet</h2>
+      <div class="activity-card">
+        <img class="activity-chart" src="https://ghchart.rshah.org/b5651d/pjstrid" alt="GitHub-graf över Jonathans bidrag/commits det senaste året" loading="lazy">
+      </div>
+      <p class="activity-note">
+        Uppdateras automatiskt utifrån mina commits på <a href="https://github.com/pjstrid" target="_blank" rel="noopener">GitHub</a>.
+      </p>
     </div>
   </section>
 
