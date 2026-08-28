@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👋</text></svg>">
-<title>Jonathan Strid — Mobilapputvecklingsstudent</title>
-<meta name="description" content="Portfolio för Jonathan Strid, mobilapputvecklingsstudent. Projekt inom iOS/SwiftUI, Android/Kotlin och Java.">
+<title data-i18n="doc.title">Jonathan Strid — Mobilapputvecklingsstudent</title>
+<meta name="description" data-i18n-content="doc.description" content="Portfolio för Jonathan Strid, mobilapputvecklingsstudent. Projekt inom iOS/SwiftUI, Android/Kotlin och Java.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -17,12 +17,13 @@
   <div class="wrap">
     <a class="brand" href="#top">Jonathan Strid</a>
     <nav>
-      <a href="#top">Om mig</a>
-      <a href="#skills">Kompetens</a>
-      <a href="#projects">Projekt</a>
-      <a href="#activity">GitHub</a>
-      <a href="#contact">Kontakt</a>
+      <a href="#top" data-i18n="nav.about">Om mig</a>
+      <a href="#skills" data-i18n="nav.skills">Kompetens</a>
+      <a href="#projects" data-i18n="nav.projects">Projekt</a>
+      <a href="#activity" data-i18n="nav.github">GitHub</a>
+      <a href="#contact" data-i18n="nav.contact">Kontakt</a>
     </nav>
+    <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Switch to English">EN</button>
   </div>
 </header>
 
@@ -30,18 +31,18 @@
 
   <section class="hero" id="top">
     <div class="wrap about-layout">
-      <img class="about-photo" src="profile_pic_bw_web.jpg" alt="Porträttbild på Jonathan Strid">
+      <img class="about-photo" src="profile_pic_bw_web.jpg" data-i18n-alt="photo.alt" alt="Porträttbild på Jonathan Strid">
       <div>
-        <p class="eyebrow">Portfolio</p>
-        <h1>Jonathan Strid — Mobilapputvecklingsstudent</h1>
-        <p class="lead">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Portfolio</p>
+        <h1 data-i18n="hero.title">Jonathan Strid — Mobilapputvecklingsstudent</h1>
+        <p class="lead" data-i18n="hero.lead">
           Jag är en mobilapputvecklingsstudent med avklarade kurser i iOS/SwiftUI, Android/Kotlin, Java
           och Agila metoder. Jag fokuserar på ren kod, tydlig struktur och att bygga användarvänliga,
           moderna lösningar. Välkommen!
         </p>
         <div class="btn-row">
-          <a class="btn btn-primary" href="#projects">Se mina projekt</a>
-          <a class="btn btn-secondary" href="mailto:pjstrid@outlook.com">Kontakta mig</a>
+          <a class="btn btn-primary" href="#projects" data-i18n="hero.cta_projects">Se mina projekt</a>
+          <a class="btn btn-secondary" href="mailto:pjstrid@outlook.com" data-i18n="hero.cta_contact">Kontakta mig</a>
         </div>
       </div>
     </div>
@@ -49,10 +50,10 @@
 
   <section id="skills">
     <div class="wrap">
-      <h2 class="section-title">Kompetens</h2>
+      <h2 class="section-title" data-i18n="skills.title">Kompetens</h2>
       <div class="skills-grid">
         <div class="skills-group">
-          <h3>Språk</h3>
+          <h3 data-i18n="skills.languages">Språk</h3>
           <div class="pill-row">
             <span class="pill">Java</span>
             <span class="pill">Kotlin</span>
@@ -60,7 +61,7 @@
           </div>
         </div>
         <div class="skills-group">
-          <h3>Viss erfarenhet av</h3>
+          <h3 data-i18n="skills.some_experience">Viss erfarenhet av</h3>
           <div class="pill-row">
             <span class="pill">HTML</span>
             <span class="pill">JavaScript</span>
@@ -68,13 +69,13 @@
           </div>
         </div>
         <div class="skills-group">
-          <h3>Backend</h3>
+          <h3 data-i18n="skills.backend">Backend</h3>
           <div class="pill-row">
             <span class="pill">Firebase</span>
           </div>
         </div>
         <div class="skills-group">
-          <h3>Verktyg &amp; plattformar</h3>
+          <h3 data-i18n="skills.tools">Verktyg &amp; plattformar</h3>
           <div class="pill-row">
             <span class="pill">Android Studio</span>
             <span class="pill">Xcode</span>
@@ -87,53 +88,53 @@
 
     <section id="projects">
     <div class="wrap">
-      <h2 class="section-title">Projekt</h2>
+      <h2 class="section-title" data-i18n="projects.title">Projekt</h2>
       <div class="projects-grid">
 
         <article class="card">
           <h3>VM-tipset</h3>
-          <p>Ett hobbyprojekt i HTML, byggt tillsammans med Claude. En hemsida med tabell och resultat för ett VM-tips med vänner och bekanta. </p>
-          <a class="repo-link" href="https://github.com/pjstrid/vm-tipset-2026" target="_blank" rel="noopener">
+          <p data-i18n="project.vmtipset.desc">Ett hobbyprojekt i HTML, byggt tillsammans med Claude. En hemsida med tabell och resultat för ett VM-tips med vänner och bekanta. </p>
+          <a class="repo-link" href="https://github.com/pjstrid/vm-tipset-2026" target="_blank" rel="noopener" data-i18n="repo.link">
             Visa på GitHub →
           </a>
         </article>
 
         <article class="card">
           <h3>Quiz 2.0</h3>
-          <p>Ett hobbyprojekt, byggt i Kotlin. Ett hemmagjort quiz med "live update"-funktion.</p>
-          <a class="repo-link" href="https://github.com/pjstrid/QuizVersionOne" target="_blank" rel="noopener">
+          <p data-i18n="project.quiz.desc">Ett hobbyprojekt, byggt i Kotlin. Ett hemmagjort quiz med "live update"-funktion.</p>
+          <a class="repo-link" href="https://github.com/pjstrid/QuizVersionOne" target="_blank" rel="noopener" data-i18n="repo.link">
             Visa på GitHub →
           </a>
         </article>
 
         <article class="card">
           <h3>Snusless</h3>
-          <p>Ett skolprojekt i grupp, byggt i Swift. En app för de som försöker sluta snusa.</p>
-          <a class="repo-link" href="https://github.com/Amandamandaanda/Snusless" target="_blank" rel="noopener">
+          <p data-i18n="project.snusless.desc">Ett skolprojekt i grupp, byggt i Swift. En app för de som försöker sluta snusa.</p>
+          <a class="repo-link" href="https://github.com/Amandamandaanda/Snusless" target="_blank" rel="noopener" data-i18n="repo.link">
             Visa på GitHub →
           </a>
         </article>
 
         <article class="card">
           <h3>CardGameApp</h3>
-          <p>Ett skolprojekt, byggt i Kotlin. En app med ett roligt kortspel.</p>
-          <a class="repo-link" href="https://github.com/pjstrid/CardGameApp" target="_blank" rel="noopener">
+          <p data-i18n="project.cardgame.desc">Ett skolprojekt, byggt i Kotlin. En app med ett roligt kortspel.</p>
+          <a class="repo-link" href="https://github.com/pjstrid/CardGameApp" target="_blank" rel="noopener" data-i18n="repo.link">
             Visa på GitHub →
           </a>
         </article>
 
         <article class="card">
           <h3>RunNest</h3>
-          <p>Ett demoapp-projekt hostat på Vercel, byggt tillsammans med Claude.</p>
-          <a class="repo-link" href="https://github.com/pjstrid/RUNNEST" target="_blank" rel="noopener">
+          <p data-i18n="project.runnest.desc">Ett demoapp-projekt hostat på Vercel, byggt tillsammans med Claude.</p>
+          <a class="repo-link" href="https://github.com/pjstrid/RUNNEST" target="_blank" rel="noopener" data-i18n="repo.link">
             Visa på GitHub →
           </a>
         </article>
 
         <article class="card">
-          <h3>Fler projekt</h3>
-          <p>Se fler projekt på GitHub</p>
-          <a class="repo-link" href="https://github.com/pjstrid" target="_blank" rel="noopener">
+          <h3 data-i18n="project.more.title">Fler projekt</h3>
+          <p data-i18n="project.more.desc">Se fler projekt på GitHub</p>
+          <a class="repo-link" href="https://github.com/pjstrid" target="_blank" rel="noopener" data-i18n="repo.link">
             Visa på GitHub →
           </a>
         </article>
@@ -144,11 +145,11 @@
 
   <section id="activity">
     <div class="wrap">
-      <h2 class="section-title">GitHub-aktivitet</h2>
+      <h2 class="section-title" data-i18n="activity.title">GitHub-aktivitet</h2>
       <div class="activity-card">
-        <img class="activity-chart" src="https://ghchart.rshah.org/b5651d/pjstrid" alt="GitHub-graf över Jonathans bidrag/commits det senaste året" loading="lazy">
+        <img class="activity-chart" src="https://ghchart.rshah.org/b5651d/pjstrid" data-i18n-alt="activity.alt" alt="GitHub-graf över Jonathans bidrag/commits det senaste året" loading="lazy">
       </div>
-      <p class="activity-note">
+      <p class="activity-note" data-i18n="activity.note">
         Uppdateras automatiskt utifrån mina commits på <a href="https://github.com/pjstrid" target="_blank" rel="noopener">GitHub</a>.
       </p>
     </div>
@@ -156,8 +157,8 @@
 
   <section id="contact">
     <div class="wrap">
-      <h2 class="section-title">Kontakt</h2>
-      <p class="lead">Hör gärna av dig om du vill diskutera ett projekt eller bara vill säga hej.</p>
+      <h2 class="section-title" data-i18n="contact.title">Kontakt</h2>
+      <p class="lead" data-i18n="contact.lead">Hör gärna av dig om du vill diskutera ett projekt eller bara vill säga hej.</p>
       <ul class="contact-list">
         <li>
           <a href="mailto:pjstrid@outlook.com">

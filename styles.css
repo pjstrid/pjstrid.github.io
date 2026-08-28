@@ -63,6 +63,21 @@ nav a {
 }
 nav a:hover { color: var(--accent); text-decoration: none; }
 
+.lang-toggle {
+  background: var(--bg-alt);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.lang-toggle:hover { background: #061b2e; }
+
 section { padding: 72px 0; }
 section + section { border-top: 1px solid var(--border); }
 
