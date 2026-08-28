@@ -1,3 +1,3 @@
 **Portfolio website built with Claude**
 
-<img width="1359" height="788" alt="Screenshot 2026-08-20 at 15 01 40" src="https://github.com/user-attachments/assets/9182e582-34b3-450f-93f6-9b2c03939c61" />
+<img width="1350" height="700" alt="Screenshot 2026-08-28 at 07 52 42" src="https://github.com/user-attachments/assets/01295862-2ca5-4510-8ba9-23d59b5c817c" />
